@@ -1,0 +1,41 @@
+/* global */
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --primary:#ff9f1c;
+    --secondary:#ffbf69;
+    --secondary2:#2ec4b6;
+}
+body{
+    background-color: var(--secondary);
+}
+p{
+    line-height: 2;
+}
+/* utilities */
+.grid-two-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+}
+/* header */
+.site-header{
+    background-color: var(--primary);
+    height: 15rem;
+}
+
+/* menu */
+.menu{
+    background-color: var(--secondary);
+}
+/* main */
+
+.img-container{
+    background-color: var(--secondary2);
+}
+.home-img{
+    border-radius: 50%;
+}
